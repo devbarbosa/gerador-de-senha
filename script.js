@@ -16,11 +16,11 @@ sliderElement.oninput = function(){
     sizePassword.innerHTML = this.value;
 }
 
-function generatePassword() {
+function generatePassword(){
     
     let pass = "";
 
-    for(let i = 0, n = charset.length; i < sliderElement.value; ++ i){
+    for(let i = 0, n = charset.length; i < sliderElement.value; ++i){
         pass += charset.charAt(Math.floor(Math.random() * n));        
     }
     console.log(pass);
@@ -30,6 +30,6 @@ function generatePassword() {
 }
 
 function copyPassword(){
-    alert("Senha copiada com sucesso!");
     navigator.clipboard.writeText(novaSenha);
+    alert("Senha copiada com sucesso!");
 }
