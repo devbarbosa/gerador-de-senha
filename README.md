@@ -8,3 +8,5 @@ e em seguida ao clicar no botão, é gerado uma senha aleatória composta por:
 * letras maiúsculas
 * letras minúscula
 * caracteres especiais ( !@ )
+
+Para visualizar a pagina em seu navegador clique no link: https://devbarbosa.github.io/gerador-de-senha/
